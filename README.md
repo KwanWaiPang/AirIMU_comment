@@ -53,7 +53,9 @@ pip install opencv-python==4.7.0.72
 wget https://github.com/sleepycan/AirIMU/releases/download/pretrained_model_euroc/EuRoCWholeaug.zip
 ~~~
 
-2. generate network inference file net_output.pickle（这应该是网络估算出来的IMU结果）
+2. 下载数据集[Euroc](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)：**Note**: Remember to reset the `data_root` in `configs/datasets/${DATASET}/${DATASET}.conf`.
+
+3. generate network inference file net_output.pickle（这应该是网络估算出来的IMU结果）
 ~~~
 python inference.py --config configs/exp/EuRoC/codenet.conf
 ~~~

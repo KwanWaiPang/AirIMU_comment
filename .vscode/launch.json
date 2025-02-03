@@ -16,6 +16,7 @@
             },
             "args":[
                 "--config=configs/exp/EuRoC/codenet.conf",
+                "--load=EuRoCWholeaug/ckpt/best_model.ckpt",
             ]
         },
     ]
