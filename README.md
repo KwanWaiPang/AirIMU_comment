@@ -36,14 +36,14 @@ conda activate airIMU
 pip install pypose
 
 # 安装系列依赖
-pip install numpy
+pip install "numpy<2"
 pip install tqdm
 pip install pyproj
 pip install scipy
 pip install matplotlib
 pip install pyhocon
 pip install pykitti
-pip install cv2
+pip install opencv-python==4.7.0.72
 
 ```
 
