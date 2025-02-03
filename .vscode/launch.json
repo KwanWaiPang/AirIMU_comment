@@ -19,5 +19,21 @@
                 "--load=EuRoCWholeaug/ckpt/best_model.ckpt",
             ]
         },
+
+        {
+            "name": "evaluating",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "evaluation/evaluate_state.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                // "PYTHONPATH": "***"  // 添加路径
+            },
+            "args":[
+                "--dataconf=configs/datasets/BaselineEuroc/Euroc_1000.conf",
+                "--exp=experiments/EuRoC/codenet/",
+            ]
+        },
     ]
 }
