@@ -35,10 +35,25 @@ conda create -n airIMU python=3.10.11
 conda activate airIMU
 pip install pypose
 
+# 安装系列依赖
+pip install numpy
+pip install tqdm
+pip install pyproj
+pip install scipy
+pip install matplotlib
+pip install pyhocon
+pip install pykitti
+pip install cv2
+
 ```
 
 # 进行验证
-1. generate network inference file net_output.pickle（这应该是网络估算出来的IMU结果）
+1. 下载预训练模型（For EuRoC）
+~~~
+wget https://github.com/sleepycan/AirIMU/releases/download/pretrained_model_euroc/EuRoCWholeaug.zip
+~~~
+
+2. generate network inference file net_output.pickle（这应该是网络估算出来的IMU结果）
 ~~~
 python inference.py --config configs/exp/EuRoC/codenet.conf
 ~~~
