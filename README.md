@@ -139,6 +139,44 @@ python evaluation/evaluate_state.py --dataconf configs/datasets/BaselineEuroc/Eu
   </figcaption>
 </div>
 
+* MH_01_easy
+<div align="center">
+  <table style="border: none; background-color: transparent;">
+    <tr>
+      <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_01_easy_orientation_compare.png" width="100%" />
+      </td>
+       <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_01_easyinte_error_compare.png" width="100%" />
+      </td>
+      <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_01_easystate_error_compare.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+  <figcaption>
+  </figcaption>
+</div>
+
+* MH_05_difficult
+<div align="center">
+  <table style="border: none; background-color: transparent;">
+    <tr>
+      <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_05_difficult_orientation_compare.png" width="100%" />
+      </td>
+       <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_05_difficultinte_error_compare.png" width="100%" />
+      </td>
+      <td style="width: 30%; border: none; padding: 0.01; background-color: transparent; vertical-align: middle;">
+        <img src="./result/loss_result/MH_05_difficultstate_error_compare.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+  <figcaption>
+  </figcaption>
+</div>
+
 * V1_03_difficult
 <div align="center">
   <table style="border: none; background-color: transparent;">
