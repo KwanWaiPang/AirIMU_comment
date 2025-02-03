@@ -112,7 +112,7 @@ class SeqeuncesDataset(Data.Dataset):
         self.uni = torch.distributions.uniform.Uniform(-torch.ones(1), torch.ones(1))
         self.device = device
         self.conf = data_set_config
-        self.gravity = conf.gravity if "gravity" in conf.keys() else 9.81007
+        self.gravity = 9.81007 #conf.gravity if "gravity" in conf.keys() else 9.81007
         if mode is None:
             self.mode = data_set_config.mode
         else:

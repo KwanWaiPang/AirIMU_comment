@@ -48,7 +48,7 @@ pip install opencv-python==4.7.0.72
 ```
 
 # 进行验证
-1. 下载预训练模型（For EuRoC）
+1. 下载预训练模型（For EuRoC）并放置于```experiments/EuRoC/codenet/ckpt/```
 ~~~
 wget https://github.com/sleepycan/AirIMU/releases/download/pretrained_model_euroc/EuRoCWholeaug.zip
 ~~~
@@ -57,5 +57,5 @@ wget https://github.com/sleepycan/AirIMU/releases/download/pretrained_model_euro
 
 3. generate network inference file net_output.pickle（这应该是网络估算出来的IMU结果）
 ~~~
-python inference.py --config configs/exp/EuRoC/codenet.conf
+python inference.py --config configs/exp/EuRoC/codenet.conf --load  EuRoCWholeaug/ckpt/best_model.ckpt
 ~~~
