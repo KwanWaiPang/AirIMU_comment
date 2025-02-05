@@ -9,7 +9,7 @@
 
 [comment]: <> (  <h2 align="center">PAPER</h2>)
   <h3 align="center">
-  <a href="https://kwanwaipang.github.io/Blog_basedon_markdown/Deep-IMU-Bias/#airimu-learning-uncertainty-propagation-for-inertial-odometry">Blog</a> 
+  <a href="https://kwanwaipang.github.io/Deep-IMU-Bias/#airimu-learning-uncertainty-propagation-for-inertial-odometry">Blog</a> 
   | <a href="https://github.com/haleqiu/AirIMU">Original Github Page</a>
   </h3>
   <div align="justify">
